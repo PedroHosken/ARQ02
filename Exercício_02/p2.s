@@ -1,4 +1,5 @@
-/*add s1, zero, 1
-addi t0, zero, 5
-addi t1, s1, 15
-sub s2, t0, t1 */
+li s1, 1
+li t1, 5
+addi t2, s1, 15
+sub s2, t1, t2
+nop
